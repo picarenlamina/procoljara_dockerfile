@@ -1,5 +1,9 @@
 FROM node:alpine
 
+RUN apt-get update && apt-get install -y git
+
+RUN git clone https://github.com/picarenlamina/procoljara.git
+
 WORKDIR /usr/src/app
 
 COPY . /usr/src/app
