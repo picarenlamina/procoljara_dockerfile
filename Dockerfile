@@ -1,7 +1,8 @@
 FROM node:alpine
 
 #instalacion git y actualizacion sistema
-RUN apt-get update && apt-get install -y git 
+RUN apk update 
+RUN apk add git
 
 WORKDIR /usr/src/app
 
