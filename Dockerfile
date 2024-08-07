@@ -14,6 +14,6 @@ RUN npm install -g @angular/cli
 
 RUN npm i
 
-RUN ng build
+#RUN ng build
 
 CMD ["ng", "serve", "--host", "0.0.0.0"]
