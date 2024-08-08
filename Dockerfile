@@ -1,3 +1,4 @@
+# source https://dev.to/rodrigokamada/creating-and-running-an-angular-application-in-a-docker-container-40mk
 FROM node:alpine
 
 #instalacion git y actualizacion sistema
