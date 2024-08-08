@@ -19,6 +19,6 @@ RUN npm install
 #RUN ng build
 
 # --host host to listen --port port to listen default 4200
-CMD ["ng", "serve", "--host", "0.0.0.0", "--port", "80"]
+CMD ["ng", "serve", "--disable-host-check", "--port", "80"]
 
 EXPOSE 80
