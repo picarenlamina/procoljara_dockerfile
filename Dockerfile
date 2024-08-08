@@ -17,4 +17,7 @@ RUN npm i
 
 #RUN ng build
 
-CMD ["ng", "serve", "--host", "0.0.0.0"]
+# --host host to listen --port port to listen default 4200
+CMD ["ng", "serve", "--host", "0.0.0.0", "--port", "80"]
+
+EXPOSE 80
