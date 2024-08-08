@@ -13,7 +13,7 @@ RUN git clone https://github.com/picarenlamina/procoljara.git .
 
 RUN npm install -g @angular/cli
 
-RUN npm i
+RUN npm install
 
 #RUN ng build
 
