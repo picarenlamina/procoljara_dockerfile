@@ -6,7 +6,7 @@
 # This is needed to build and compile our code 
 # while generating the docker image
 # FROM node:alpine AS build
-FROM node:22.14.0-alpine
+FROM node:22.14.0-alpine AS build
 #instalacion git y actualizacion sistema
 RUN apk update 
 RUN apk add git
